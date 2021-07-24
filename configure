@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+
+switch (uname)
+    case Linux
+        echo "Nothing to configure for Linux"
+    case Darwin
+        open Aviral.terminal
+end
